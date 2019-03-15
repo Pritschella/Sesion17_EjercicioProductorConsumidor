@@ -9,7 +9,7 @@ interface  Buffer{
 	//place int value into Buffer
 	public void blockingPut(int value) throws InterruptedException;
 	
-	//return int value fro Buffer
+	//return int value for Buffer
 	public int blockingGet() throws InterruptedException;
 	
 }//Interface
